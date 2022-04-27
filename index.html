@@ -5,95 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
-    <!-- <table style="border: 1px solid #000; width: 100%">
-      <tr style="border: 1px solid #000; height: 200px">
-        <td colspan="2" style="border: 1px solid #000">header</td>
-      </tr>
-      <tr style="border: 1px solid #000; height: 1000px">
-        <td style="border: 1px solid #000">main</td>
-        <td style="border: 1px solid #000">content</td>
-      </tr>
-      <tr style="border: 1px solid #000; height: 200px">
-        <td colspan="2" style="border: 1px solid #000">footer</td>
-      </tr>
-      <tr style="border: 1px solid #000; height: 200px">
-        <td rowspan="2" style="border: 1px solid #000">1</td>
-        <td style="border: 1px solid #000">2</td>
-      </tr>
-      <tr style="border: 1px solid #000; height: 200px">
-        <td style="border: 1px solid #000">4</td>
-      </tr>
-    </table> -->
-
     <section id="header">
       <header>
-        <img src="avatar.jpg" alt="" />
-        <h1>Lorem Ipsum</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <span class="image avatar">
+          <img src="images/avatar.jpg" alt="" />
+        </span>
+        <h1 id="logo">
+          <a href="#">Lorem Ipsum</a>
+        </h1>
+        <p>Lorem ipsum dolor sit amet conse ctetur, adipisicing elit.</p>
       </header>
-      <nav>
+      <nav id="nav">
         <ul>
-          <li>
-            <a href="#one" class="active">About</a>
-          </li>
-          <li>
-            <a href="#two">My works</a>
-          </li>
-          <li>
-            <a href="#three">Portfolio</a>
-          </li>
-          <li>
-            <a href="#four">Contacts</a>
-          </li>
+          <li><a href="#one" class="active">About</a></li>
+          <li><a href="#two">I Can Do</a></li>
+          <li><a href="#three">Accomplishments</a></li>
+          <li><a href="#four">Contact</a></li>
         </ul>
       </nav>
       <footer>
         <ul class="icons">
           <li>
-            <a href="#" class="fa fa-facebook"></a>
+            <i class="fa fa-twitter"></i>
           </li>
           <li>
-            <a href="#" class="fa fa-instagram"></a>
+            <i class="fa fa-facebook"></i>
           </li>
           <li>
-            <a href="#" class="fa fa-twitter"></a>
+            <i class="fa fa-instagram"></i>
           </li>
           <li>
-            <a href="#" class="fa fa-github"></a>
+            <i class="fa fa-github"></i>
           </li>
           <li>
-            <a href="#" class="fa fa-linkedin"></a>
+            <i class="fa fa-envelope"></i>
           </li>
         </ul>
       </footer>
     </section>
-
     <div id="wrapper">
       <div id="main">
         <section id="one">
-          <header>
-            <img src="banner.jpg" alt="" />
-          </header>
-          <div class="content">
-            <h1>About me</h1>
-            <h4>
-              Just an simple responsive site<br />
-              by students from <a href="https://decode.kz">Decode.kz</a>.
-            </h4>
+          <div class="image main" data-position="center">
+            <img src="images/banner.jpg" alt="" />
+          </div>
+          <div class="container">
+            <header class="major">
+              <h2>Lorem Ipsum</h2>
+              <p>
+                Just a simple responsive site<br />
+                from students by <a href="https://decode.kz">Decode.kz</a>.
+              </p>
+            </header>
             <p>
-              Faucibus sed lobortis aliquam lorem blandit. Lorem eu nunc metus col. Commodo id in
-              arcu ante lorem ipsum sed accumsan erat praesent faucibus commodo ac mi lacus.
-              Adipiscing mi ac commodo.
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit voluptas assumenda
+              aperiam! Odit aspernatur mollitia cupiditate consectetur dignissimos porro placeat
+              vero nemo deserunt corrupti ipsum laboriosam, distinctio cumque, pariatur voluptate!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio perferendis modi soluta
+              nam veritatis nostrum officia provident ullam voluptatibus recusandae ab, odio dolorem
+              accusantium labore dolores quo unde blanditiis earum!
             </p>
           </div>
         </section>
-        <section id="two">two</section>
-        <section id="three">Portfolio</section>
+        <section id="two"><div class="container">2</div></section>
+        <section id="three"><div class="container">3</div></section>
+        <section id="four"><div class="container">4</div></section>
       </div>
-      <section id="footer">Contacts</section>
+    </div>
+    <div id="titleBar">
+      <a href="#" class="toggle"></a>
+      <span class="title">Lorem Ipsum</span>
     </div>
   </body>
 </html>
+<!DOCTYPE html>

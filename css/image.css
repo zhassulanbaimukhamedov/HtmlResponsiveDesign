@@ -1,0 +1,25 @@
+.image {
+  border-radius: 5px;
+  border: 0;
+}
+
+.image img {
+  border-radius: 5px;
+}
+
+.image.avatar {
+  border-radius: 100%;
+}
+
+.image.avatar img {
+  border-radius: 100%;
+  width: 100%;
+}
+
+.image.main {
+  display: block;
+}
+.image.main img {
+  border-radius: 0;
+  width: 100%;
+}

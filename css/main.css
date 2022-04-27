@@ -1,0 +1,40 @@
+#wrapper {
+  background: #fff;
+  padding-right: 23em;
+}
+#main > section {
+  border-top: solid 6px #f4f4f4;
+}
+
+#main > section > .container {
+  padding: 6em 0 4em 0;
+}
+
+#main > section:first-child {
+  border-top: 0;
+}
+
+@media screen and (max-width: 1680px) {
+  #wrapper {
+    padding-right: 21em;
+  }
+  #main > section > .container {
+    padding: 4em 0 2em 0;
+  }
+}
+@media screen and (max-width: 1280px) {
+  #wrapper {
+    padding-right: 20em;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #wrapper {
+    padding-right: 0;
+  }
+}
+@media screen and (max-width: 736px) {
+  #main > section > .container {
+    padding: 2em 0 0 0;
+  }
+}
