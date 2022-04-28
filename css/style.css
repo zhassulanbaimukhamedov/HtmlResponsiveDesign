@@ -21,6 +21,7 @@ a {
   color: #d2f2e9;
   height: 100%;
   overflow-y: auto;
+  overflow-x: hidden;
   position: fixed;
   top: 0;
   right: 0;
@@ -137,28 +138,52 @@ a {
   width: 100%;
 }
 
-.container {
+#main .container {
   margin: 0 auto;
   padding: 6em 0 4em 0;
-  width: 83%;
+  width: 75%;
 }
-.container > header h2 {
+#main .container > header h2 {
   color: #4acaa8;
   font-size: 3.5em;
   line-height: 1.5em;
   margin: 0 0 0.5em 0;
 }
-.container > header p {
+#main .container > header p {
   color: #777;
   font-size: 1.75em;
   font-weight: 700;
   line-height: 1.5em;
   margin: 0 0 1.7em 0;
 }
-.container p {
+#main .container p {
   margin: 0 0 2.25em 0;
 }
+#main .container h3 {
+  font-size: 1.75em;
+  line-height: 1.5em;
+  color: #777;
+  font-weight: 700;
+  margin: 0 0 0.5em 0;
+}
 
+#main #footer {
+  background-image: url(../images/bg3.jpg);
+  border-top: 0;
+  color: #777;
+}
+.copyright li:first-child {
+  border-left: 0;
+  margin-left: 0;
+  padding-left: 0;
+}
+.copyright li {
+  border-left: #777 1px solid;
+  margin-left: 1em;
+  padding-left: 1em;
+  display: inline-block;
+  font-size: 0.8em;
+}
 /* --- Title Bar --- */
 #titleBar {
   background: #222;

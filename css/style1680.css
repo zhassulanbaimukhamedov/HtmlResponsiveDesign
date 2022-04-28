@@ -22,7 +22,7 @@
     padding-right: 21em;
   }
 
-  .container {
+  #main .container {
     padding: 4em 0 2em 0;
   }
 }
